@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}|Application.BookShelf.Aplication\\Application.BookShelf.Aplication.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.aplication\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}|Application.BookShelf.Aplication\\Application.BookShelf.Aplication.csproj|solutionrelative:application.bookshelf.aplication\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69C8D9D1-ACEA-46A6-AE5A-461FDD15DCD9}|Application.BookShelf.Services\\Application.BookShelf.Services.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C8D9D1-ACEA-46A6-AE5A-461FDD15DCD9}|Application.BookShelf.Services\\Application.BookShelf.Services.csproj|solutionrelative:application.bookshelf.services\\bookservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{255DF854-1B14-4C64-8867-7A05FDA928FC}|Application.BookShelf.Repository\\Application.BookShelf.Repository.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.repository\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{255DF854-1B14-4C64-8867-7A05FDA928FC}|Application.BookShelf.Repository\\Application.BookShelf.Repository.csproj|solutionrelative:application.bookshelf.repository\\bookrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C203B07-17CC-40CC-A514-35DA9C86413E}|Application.BookShelf.Core\\Application.BookShelf.Core.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.core\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C203B07-17CC-40CC-A514-35DA9C86413E}|Application.BookShelf.Core\\Application.BookShelf.Core.csproj|solutionrelative:application.bookshelf.core\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}|Application.BookShelf.Aplication\\Application.BookShelf.Aplication.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.aplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}|Application.BookShelf.Aplication\\Application.BookShelf.Aplication.csproj|solutionrelative:application.bookshelf.aplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{181FEA13-47BE-41E0-A2BB-C4E3839F128E}|Application.BookShelf.Infrastructure\\Application.BookShelf.Infrastructure.csproj|c:\\users\\vishn\\source\\repos\\application.bookshelf\\application.bookshelf.infrastructure\\bookshelfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{181FEA13-47BE-41E0-A2BB-C4E3839F128E}|Application.BookShelf.Infrastructure\\Application.BookShelf.Infrastructure.csproj|solutionrelative:application.bookshelf.infrastructure\\bookshelfdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Core\\Book.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Core\\Book.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Core\\Book.cs",
+              "RelativeToolTip": "Application.BookShelf.Core\\Book.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-17T14:25:52.219Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookShelfDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Infrastructure\\BookShelfDbContext.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Infrastructure\\BookShelfDbContext.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Infrastructure\\BookShelfDbContext.cs",
+              "RelativeToolTip": "Application.BookShelf.Infrastructure\\BookShelfDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-02T14:45:48.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Aplication\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Aplication\\Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Aplication\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Application.BookShelf.Aplication\\Controllers\\BookController.cs",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAAAE4AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:18:16.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BookService.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Services\\BookService.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Services\\BookService.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Services\\BookService.cs",
+              "RelativeToolTip": "Application.BookShelf.Services\\BookService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T14:09:18.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookRepo.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Repository\\BookRepo.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Repository\\BookRepo.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Repository\\BookRepo.cs",
+              "RelativeToolTip": "Application.BookShelf.Repository\\BookRepo.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwBYAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:49:09.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Aplication\\Program.cs",
+              "RelativeDocumentMoniker": "Application.BookShelf.Aplication\\Program.cs",
+              "ToolTip": "C:\\Users\\vishn\\source\\repos\\Application.BookShelf\\Application.BookShelf.Aplication\\Program.cs",
+              "RelativeToolTip": "Application.BookShelf.Aplication\\Program.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAhwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T13:47:35.976Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

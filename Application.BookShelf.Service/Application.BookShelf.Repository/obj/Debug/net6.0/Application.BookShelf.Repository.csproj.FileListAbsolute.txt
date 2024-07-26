@@ -1,0 +1,17 @@
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Repository.deps.json
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Repository.dll
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Repository.pdb
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Core.dll
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Infrastructure.dll
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Core.pdb
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\bin\Debug\net6.0\Application.BookShelf.Infrastructure.pdb
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.csproj.AssemblyReference.cache
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.AssemblyInfoInputs.cache
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.AssemblyInfo.cs
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.csproj.CoreCompileInputs.cache
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Applicat.71D69C50.Up2Date
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.dll
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\refint\Application.BookShelf.Repository.dll
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\Application.BookShelf.Repository.pdb
+C:\Users\vishn\source\repos\Application.BookShelf\Application.BookShelf.Repository\obj\Debug\net6.0\ref\Application.BookShelf.Repository.dll
