@@ -12,7 +12,9 @@ namespace Application.BookShelf.Core
             public string FullName { get; set; }          
             public string Password { get; set; }
             public string EmailAddress { get; set; }
-           public List<string> Roles { get; set; } = new List<string>();
+
+            public string Role { get; set; } 
+           // public List<string> Role { get; set; } = new List<string>();
     }
     }
 

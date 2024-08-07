@@ -21,7 +21,9 @@ namespace Application.BookShelf.Aplication.Controllers
 
         [Route("api/GetAllBooks")]
         [HttpGet]
-        [Authorize]
+        //[Authorize]
+       // [Authorize(Roles = "User")]
+        [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllBooks()
         {
             var list = await _bookService.GetAllBooks();
@@ -39,7 +41,8 @@ namespace Application.BookShelf.Aplication.Controllers
 
         [Route("api/BookDetails")]
         [HttpGet]
-        [Authorize]
+        // [Authorize]
+        [Authorize(Roles = "Admin")]
         public IEnumerable<Book> GetBookDetails()
         {
             return new List<Book>()
@@ -64,35 +67,7 @@ namespace Application.BookShelf.Aplication.Controllers
         }
 
 
-        [Route("api/Book/{Id}")]
-        [HttpGet]
-        [ProducesResponseType(StatusCodes.Status200OK, Type = typeof(List<Book>))]
-        [ProducesResponseType(StatusCodes.Status404NotFound)]
-        public ActionResult<Book> GetEmployeeDetails(int Id)
-        {
-            if (Id == 0)
-            {
-                return NotFound();
-            }
-            else if (Id == 1) {
-            
-                return new Book()
-                {
-                    Id = 1,
-                    BookName = "Rising Stars",
-                    BookAutherName = "Kane Willam",
-                    BookGenere = "Biopic",
-                    BookEdition = "Second Edition"
-                };
-            }
-            else
-            {
-                return BadRequest();
-            }
-
-
-        }
-
+        
 
 
     }
