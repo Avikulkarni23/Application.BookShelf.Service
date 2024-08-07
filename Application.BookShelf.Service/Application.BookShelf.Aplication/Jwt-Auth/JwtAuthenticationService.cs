@@ -42,7 +42,8 @@ namespace Application.BookShelf.Aplication.Jwt_Auth
             };
 
             // Adds a role claim for each role associated with the user.
-            user.Roles.ForEach(role => claims.Add(new Claim(ClaimTypes.Role, role)));
+            claims.Add(new Claim(ClaimTypes.Role, user.Role));
+           // user.Role.ForEach(role => claims.Add(new Claim(ClaimTypes.Role, role)));
 
 
             var token = new JwtSecurityToken(
