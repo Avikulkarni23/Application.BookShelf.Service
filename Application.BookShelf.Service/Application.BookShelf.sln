@@ -13,17 +13,27 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.BookShelf.Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application.BookShelf.Repository", "Application.BookShelf.Repository", "{5F97D6F4-BB7B-493D-994E-447B5E3194CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.BookShelf.Core", "Application.BookShelf.Core\Application.BookShelf.Core.csproj", "{7C203B07-17CC-40CC-A514-35DA9C86413E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.BookShelf.Core", "Application.BookShelf.Core\Application.BookShelf.Core.csproj", "{7C203B07-17CC-40CC-A514-35DA9C86413E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.BookShelf.Infrastructure", "Application.BookShelf.Infrastructure\Application.BookShelf.Infrastructure.csproj", "{181FEA13-47BE-41E0-A2BB-C4E3839F128E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.BookShelf.Infrastructure", "Application.BookShelf.Infrastructure\Application.BookShelf.Infrastructure.csproj", "{181FEA13-47BE-41E0-A2BB-C4E3839F128E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.BookShelf.Repository", "Application.BookShelf.Repository\Application.BookShelf.Repository.csproj", "{255DF854-1B14-4C64-8867-7A05FDA928FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.BookShelf.Repository", "Application.BookShelf.Repository\Application.BookShelf.Repository.csproj", "{255DF854-1B14-4C64-8867-7A05FDA928FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.BookShelf.Services", "Application.BookShelf.Services\Application.BookShelf.Services.csproj", "{69C8D9D1-ACEA-46A6-AE5A-461FDD15DCD9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.BookShelf.Services", "Application.BookShelf.Services\Application.BookShelf.Services.csproj", "{69C8D9D1-ACEA-46A6-AE5A-461FDD15DCD9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Testing", "Unit Testing", "{87F00AB0-8CE5-4D58-A248-668968657D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.BookShelf.Aplication", "Application.BookShelf.Aplication\Application.BookShelf.Aplication.csproj", "{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application.BookShelf.Aplication", "Application.BookShelf.Aplication\Application.BookShelf.Aplication.csproj", "{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DbOps", "DbOps", "{A238013B-DE89-4498-A73A-E970B5E8300E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Schema", "Schema", "{1BD276A8-9153-49CB-92D4-35E1300BE64B}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\OneDrive\Desktop\TBL_Book.Sql = ..\..\..\..\OneDrive\Desktop\TBL_Book.Sql
+		..\..\..\..\OneDrive\Desktop\TBL_Users.sql = ..\..\..\..\OneDrive\Desktop\TBL_Users.sql
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{A025AEFF-D913-478F-B8D1-CA2533752E31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +71,8 @@ Global
 		{255DF854-1B14-4C64-8867-7A05FDA928FC} = {5F97D6F4-BB7B-493D-994E-447B5E3194CD}
 		{69C8D9D1-ACEA-46A6-AE5A-461FDD15DCD9} = {3124BBFA-B765-4C39-89C9-D2F49D1DD569}
 		{2B3837E4-39B1-443D-A966-6F4DDEBCBE4F} = {08C5CC77-7A06-425E-BE6F-6C1433BA7EB0}
+		{1BD276A8-9153-49CB-92D4-35E1300BE64B} = {A238013B-DE89-4498-A73A-E970B5E8300E}
+		{A025AEFF-D913-478F-B8D1-CA2533752E31} = {A238013B-DE89-4498-A73A-E970B5E8300E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {01512ED6-2534-40D5-A95D-A74CA54D0AC4}
