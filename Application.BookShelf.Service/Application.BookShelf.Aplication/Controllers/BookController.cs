@@ -1,5 +1,6 @@
 ﻿using Application.BookShelf.Core;
 using Application.BookShelf.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
@@ -20,12 +21,13 @@ namespace Application.BookShelf.Aplication.Controllers
 
         [Route("api/GetAllBooks")]
         [HttpGet]
+        [Authorize]
         public async Task<IActionResult> GetAllBooks()
         {
             var list = await _bookService.GetAllBooks();
             if (list == null)
             {
-                return NotFound();
+                return NotFound();               
             }
             else
             {
@@ -37,6 +39,7 @@ namespace Application.BookShelf.Aplication.Controllers
 
         [Route("api/BookDetails")]
         [HttpGet]
+        [Authorize]
         public IEnumerable<Book> GetBookDetails()
         {
             return new List<Book>()
