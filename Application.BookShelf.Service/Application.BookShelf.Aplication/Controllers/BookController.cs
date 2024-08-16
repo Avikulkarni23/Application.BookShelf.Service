@@ -23,7 +23,7 @@ namespace Application.BookShelf.Aplication.Controllers
         [HttpGet]
         //[Authorize]
        // [Authorize(Roles = "User")]
-        [Authorize(Roles = "Admin")]
+         [Authorize(Roles = "Admin")]
         public async Task<IActionResult> GetAllBooks()
         {
             var list = await _bookService.GetAllBooks();
@@ -42,7 +42,7 @@ namespace Application.BookShelf.Aplication.Controllers
         [Route("api/BookDetails")]
         [HttpGet]
         // [Authorize]
-        [Authorize(Roles = "Admin")]
+        [Authorize(Roles = "User")]
         public IEnumerable<Book> GetBookDetails()
         {
             return new List<Book>()
