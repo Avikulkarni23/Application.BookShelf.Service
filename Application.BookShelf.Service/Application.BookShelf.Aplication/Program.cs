@@ -9,6 +9,7 @@ using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Builder;
 using Application.BookShelf.Aplication;
+using Application.BookShelf.Aplication.Filters;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddTransient<BookShelfDbContext>();
 builder.Services.AddTransient<JwtAuthenticationService>();
+builder.Services.AddTransient<CustomExceptionFilter>();
+builder.Services.AddTransient<LogActionFilter>();
 builder.Services.AddTransient<IBookRepo, BookRepo>();
 builder.Services.AddTransient<IBookService, BookService>();
 builder.Services.AddTransient<IUserRepo, UserRepo>();
@@ -47,6 +50,11 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
         };
     });
 
+builder.Services.AddMvc(options =>
+{
+    options.Filters.Add<LogActionFilter>();
+    options.Filters.Add<CustomExceptionFilter>();
+});
 
 var app = builder.Build();
 // Configure the HTTP request pipeline.

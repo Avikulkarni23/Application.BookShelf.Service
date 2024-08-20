@@ -1,4 +1,5 @@
-﻿using Application.BookShelf.Core;
+﻿using Application.BookShelf.Aplication.Filters;
+using Application.BookShelf.Core;
 using Application.BookShelf.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
@@ -21,28 +22,43 @@ namespace Application.BookShelf.Aplication.Controllers
 
         [Route("api/GetAllBooks")]
         [HttpGet]
-        //[Authorize]
-       // [Authorize(Roles = "User")]
-         [Authorize(Roles = "Admin")]
+        //[Authorize(Roles = "Admin")]
+        [ServiceFilter(typeof(LogActionFilter))]
+        [ServiceFilter(typeof(CustomExceptionFilter))]
+        [CustomAuthorizationFilter]
         public async Task<IActionResult> GetAllBooks()
         {
-            var list = await _bookService.GetAllBooks();
-            if (list == null)
+            try
             {
-                return NotFound();               
+                var list = await _bookService.GetAllBooks();
+                if (list == null)
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    return Ok(list);
+                }
             }
-            else
+            catch (Exception)
             {
-                return Ok(list);
+
+                throw;
             }
+
+            //finally
+            //{
+            //    throw new Exception(" Issue in app");
+            //}
+           
 
         }
-
 
         [Route("api/BookDetails")]
         [HttpGet]
         // [Authorize]
         [Authorize(Roles = "User")]
+        [ServiceFilter(typeof(CustomExceptionFilter))]
         public IEnumerable<Book> GetBookDetails()
         {
             return new List<Book>()
@@ -64,11 +80,8 @@ namespace Application.BookShelf.Aplication.Controllers
                     BookEdition = "First Edition"
                 },
             };
+
+
         }
-
-
-        
-
-
     }
 }
